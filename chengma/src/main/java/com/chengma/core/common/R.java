@@ -1,4 +1,4 @@
-package com.chengma.common;
+package com.chengma.core.common;
 
 import lombok.*;
 import lombok.experimental.Accessors;

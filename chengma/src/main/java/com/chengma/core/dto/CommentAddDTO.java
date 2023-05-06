@@ -1,4 +1,4 @@
-package com.chengma.dto;
+package com.chengma.core.dto;
 
 import com.chengma.core.entity.EditorData;
 import lombok.Getter;

@@ -1,4 +1,4 @@
-package com.chengma.common;
+package com.chengma.core.common;
 
 import org.springframework.context.support.DefaultMessageSourceResolvable;
 import org.springframework.validation.BindException;

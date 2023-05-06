@@ -2,7 +2,7 @@ package com.chengma.controller;
 
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.chengma.common.R;
+import com.chengma.core.common.R;
 import com.chengma.core.entity.Question;
 import com.chengma.core.qo.QuestionQO;
 import com.chengma.core.vo.QuestionVO;

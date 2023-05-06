@@ -2,11 +2,11 @@ package com.chengma.controller;
 
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.chengma.common.R;
+import com.chengma.core.common.R;
 import com.chengma.core.entity.Comment;
 import com.chengma.core.qo.CommentQO;
 import com.chengma.core.vo.CommentVO;
-import com.chengma.dto.CommentAddDTO;
+import com.chengma.core.dto.CommentAddDTO;
 import com.chengma.service.CommentService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;
@@ -37,7 +37,6 @@ public class CommentController {
 	 */
 	@GetMapping("/page")
 	public R<IPage<CommentVO>> pageVO(Page<Comment> pageParam, CommentQO qo) {
-		System.out.println(activeName);
 		return R.ok(commentService.pageVO(pageParam, qo));
 	}
 
@@ -47,7 +46,6 @@ public class CommentController {
 	 */
 	@PostMapping
 	public R<Void> add(@Validated @RequestBody CommentAddDTO dto) {
-		System.out.println(dto);
 		return R.ok();
 	}
 
