@@ -1,7 +1,7 @@
-package com.psh.strategy.quota.strategy;
+package com.psh.strategy.quota.one.strategy;
 
 import com.psh.strategy.quota.core.Quota;
-import com.psh.strategy.quota.core.QuotaEnum;
+import com.psh.strategy.quota.one.QuotaEnum;
 
 /**
  * @author psh 2023/5/6 17:16

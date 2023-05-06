@@ -1,6 +1,6 @@
-package com.psh.strategy.quota.core;
+package com.psh.strategy.quota.one;
 
-import com.psh.strategy.quota.strategy.*;
+import com.psh.strategy.quota.one.strategy.*;
 
 import java.util.HashMap;
 import java.util.Map;
