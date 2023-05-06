@@ -54,7 +54,6 @@ public enum QuotaSimpleStrategy {
 			return source.setDesc("3亿 < value <= 5亿");
 		}
 	};
-	;
 
 	private final Integer type;
 
