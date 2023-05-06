@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.chengma.mapper.QuestionMapper">
+
+
+    <sql id="Base_Column_List">
+        id,
+        title,
+        tags,
+        question,
+        ifnull(answer, 0) as answer,
+        status,
+        ifnull(answerer, "未回答") as answerer,
+        classic,
+        create_user,
+        create_time,
+        update_user,
+        update_time
+    </sql>
+
+
+    <select id="page" resultType="com.chengma.core.entity.Question">
+        select
+        <include refid="Base_Column_List"/>
+        from tb_question
+        ${ew.customSqlSegment}
+    </select>
+</mapper>
