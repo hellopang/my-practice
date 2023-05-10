@@ -10,7 +10,6 @@ import lombok.*;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-
 public class Car {
 
 	/**
