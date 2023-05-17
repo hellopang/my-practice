@@ -1,4 +1,4 @@
-package com.psh.state.task;
+package com.psh.state.task.enums;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -13,9 +13,26 @@ import lombok.Getter;
 public enum ActionType {
 
 	/**
-	 *
+	 * 开始
 	 */
-	START(1, "开始"), STOP(2, "暂停"), ACHIEVE(3, "完成"), EXPIRE(4, "过期");
+	START(1, "开始"),
+
+	/**
+	 * 暂停
+	 */
+	PAUSED(2, "暂停"),
+
+	/**
+	 * 完成
+	 */
+	ACHIEVE(3, "完成"),
+
+	/**
+	 * 过期
+	 */
+	EXPIRE(4, "过期"),
+
+	;
 	private final int code;
 
 	private final String message;

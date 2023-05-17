@@ -1,6 +1,6 @@
 package com.psh.state.task.state;
 
-import com.psh.state.task.ActionType;
+import com.psh.state.task.enums.ActionType;
 import com.psh.state.task.Task;
 
 /**
