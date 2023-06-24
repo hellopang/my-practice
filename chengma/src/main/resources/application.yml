@@ -7,14 +7,6 @@ spring:
   profiles:
     active: @profiles.active@  # 当前激活配置，默认dev
 
-  datasource:
-    url: jdbc:mysql://rm-cn-20p364uib000j98o.rwlb.rds.aliyuncs.com:3306/chengma?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
-    username: root
-    password: ppp8989#$%
-    type: com.zaxxer.hikari.HikariDataSource
-
-
-
 # MyBatis-Plus的全局配置
 mybatis-plus:
   global-config:
