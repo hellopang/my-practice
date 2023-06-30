@@ -20,6 +20,7 @@
         <module>dependency</module>
         <module>design-mode</module>
         <module>picture</module>
+        <module>spring-cloud-alibaba-demo</module>
     </modules>
 
 </project>
